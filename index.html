@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      function abrirApp() {
+           const url = "intent://bancoestado/#Intent;scheme=bancoestado;package=net.veritran.becl.prod;end"; 
+   window.location.replace(url); 
+        
+      }
+    </script>
+  </head>
+  <body>
+    <button onClick="abrirApp()">Abrir App</button>
+  </body>
+</html>
